@@ -1,0 +1,13 @@
+services:
+  mare-arabia:
+    build: .
+    ports:
+      - "8888:8888"
+    environment:
+      - DATABASE_URL=sqlite:////app/data/mare_arabia.db
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    volumes:
+      - mare-data:/app/data
+
+volumes:
+  mare-data:
