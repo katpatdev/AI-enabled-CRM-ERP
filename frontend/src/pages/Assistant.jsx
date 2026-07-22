@@ -16,7 +16,7 @@ const PROMPTS = [
 
 export default function Assistant() {
   const [msgs, setMsgs] = useState([
-    { role: 'bot', text: 'CruiseOS Copilot. Enterprise natural-language operations for cruise tourism.' },
+    { role: 'bot', text: 'Navora Copilot. Enterprise natural-language operations for cruise and cargo fleets.' },
   ])
   const [input, setInput] = useState('')
   const [busy, setBusy] = useState(false)
@@ -46,8 +46,8 @@ export default function Assistant() {
 
   return (
     <>
-      <h1 className="page-title">CruiseOS Copilot</h1>
-      <p className="page-sub">Enterprise AI assistant for bookings, VIPs, occupancy, finance, and guest personalization.</p>
+      <h1 className="page-title">Navora Copilot</h1>
+      <p className="page-sub">Enterprise AI assistant for bookings, cargo schedules, VIPs, occupancy, finance, and guest personalization.</p>
       <div className="panel">
         <div className="copilot-body" style={{ height: 360 }}>
           {msgs.map((m, i) => (

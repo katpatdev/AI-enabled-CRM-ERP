@@ -15,7 +15,7 @@ For implementation-accurate HLD/LLD (stack, APIs, data model, algorithms), see [
 | Guest data | Static profiles, siloed PMS/POS | 360° guest profile across ship + future resorts |
 | Engagement | Manual scripts, call centers | AI concierge with RAG over menus, itineraries, policies |
 | Pricing / yield | Periodic manual rate changes | Demand-aware suggestions (Phase 2: pricing agents) |
-| Finance | Manual invoices / batch tax filing | ZATCA Phase 2–style clearance & reporting workflows |
+| Finance | Manual invoices / batch tax filing | ZATCA Phase 2-style clearance & reporting workflows |
 | Supply chain | Spreadsheets + periodic audits | Halal cold-chain IoT flags + inventory alerts |
 | At sea | Systems degrade offline | Edge SQLite + sync queue until reconnect |
 | Ops decisions | After-the-fact reports | Live dashboards, risk banners, predictive flags |
@@ -44,7 +44,7 @@ Ops React App  ───┘         │
 
 | ID | Requirement | MVP | Later |
 |----|-------------|-----|-------|
-| CRM-01 | 360° guest profile (loyalty, dietary, faith, cabin) | Yes | — |
+| CRM-01 | 360° guest profile (loyalty, dietary, faith, cabin) | Yes |  -  |
 | CRM-02 | AI multimodal / chat concierge | Text + RAG | Voice, vision |
 | CRM-03 | Personalized dining & excursion booking | Yes | Dynamic yield |
 | CRM-04 | Faith module (Qibla + prayer times) | Client calc | Cabin screens |
@@ -62,15 +62,15 @@ Ops React App  ───┘         │
 | ERP-05 | ZATCA B2B standard (clearance model) | Mock cleared XML | Live CSID |
 | ERP-06 | Edge offline queue + sync | Yes | CRDT / Couchbase |
 | ERP-07 | Geopolitical routing / re-provision | Static banner | Live AIS risk feeds |
-| ERP-08 | Predictive maintenance | — | IoT + work orders |
+| ERP-08 | Predictive maintenance |  -  | IoT + work orders |
 
 ## 7. AI Concierge Workflow
 
-1. **Perceive** — Guest message + profile context.
-2. **Retrieve** — Keyword / chunk match over ship knowledge base.
-3. **Reason** — Optional OpenAI/Gemini; else deterministic templates from retrieved chunks.
-4. **Act** — Suggest or create booking via API; enqueue sync if offline.
-5. **Sync** — When edge online, flush pending events to “cloud” (same DB with `synced_at`).
+1. **Perceive**  -  Guest message + profile context.
+2. **Retrieve**  -  Keyword / chunk match over ship knowledge base.
+3. **Reason**  -  Optional OpenAI/Gemini; else deterministic templates from retrieved chunks.
+4. **Act**  -  Suggest or create booking via API; enqueue sync if offline.
+5. **Sync**  -  When edge online, flush pending events to “cloud” (same DB with `synced_at`).
 
 ## 8. ZATCA Simulation Notes
 

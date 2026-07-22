@@ -42,7 +42,7 @@ const employeeLinks = [
     { to: '/app/audit', label: 'Audit Logs' },
   ]},
   { section: 'Intelligence', items: [
-    { to: '/app/assistant', label: 'CruiseOS Copilot' },
+    { to: '/app/assistant', label: 'Navora Copilot' },
     { to: '/app/knowledge', label: 'Knowledge Base' },
     { to: '/app/settings', label: 'Settings' },
     { to: '/app/profile', label: 'Profile' },
@@ -75,9 +75,9 @@ export default function AppShell() {
       <aside className="sidebar">
         <div className="brand-lockup">
           <div className="name">
-            Cruise<span>OS</span>
+            Navor<span>a</span>
           </div>
-          <div className="sub">AI Enterprise OS for Cruise Tourism</div>
+          <div className="sub">AI OS for cruise and cargo fleets</div>
         </div>
         {isEmployee ? (
           employeeLinks.map((group) => (
@@ -181,7 +181,7 @@ export default function AppShell() {
       {aiModal && (
         <div className="modal-backdrop" onClick={() => setAiModal(null)}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
-            <h3>CruiseOS AI · {aiModal}</h3>
+            <h3>Navora AI · {aiModal}</h3>
             <p className="muted">Simulated enterprise AI action for the pitch demo.</p>
             <p>{matchCopilot(aiModal === 'Predict' ? 'forecast' : aiModal === 'Recommend' ? 'marketing' : aiModal === 'Summarize' ? 'summarize' : 'default')}</p>
             <button className="btn btn-primary" onClick={() => setAiModal(null)}>Close</button>

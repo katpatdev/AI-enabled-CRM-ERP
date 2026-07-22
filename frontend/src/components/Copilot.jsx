@@ -5,7 +5,7 @@ export default function Copilot() {
   const [open, setOpen] = useState(false)
   const [input, setInput] = useState('')
   const [msgs, setMsgs] = useState([
-    { role: 'bot', text: 'CruiseOS Copilot ready. Ask about bookings, VIPs, occupancy, invoices, delays, or campaigns.' },
+    { role: 'bot', text: 'Navora Copilot ready. Ask about bookings, cargo manifests, VIPs, occupancy, invoices, delays, or campaigns.' },
   ])
 
   function send(e) {
@@ -20,7 +20,7 @@ export default function Copilot() {
     <div className="copilot">
       {open && (
         <div className="copilot-panel">
-          <div className="copilot-head">CruiseOS Copilot</div>
+          <div className="copilot-head">Navora Copilot</div>
           <div className="copilot-body">
             {msgs.map((m, i) => (
               <div key={i} className={`bubble ${m.role === 'user' ? 'user' : 'bot'}`}>{m.text}</div>
@@ -33,7 +33,7 @@ export default function Copilot() {
         </div>
       )}
       <button type="button" className="copilot-fab" onClick={() => setOpen((v) => !v)}>
-        {open ? 'Close' : 'CruiseOS Copilot'}
+        {open ? 'Close' : 'Navora Copilot'}
       </button>
     </div>
   )

@@ -46,7 +46,7 @@ export default function Dashboard() {
   return (
     <>
       <h1 className="page-title">Executive dashboard</h1>
-      <p className="page-sub">Live cruise network KPIs across Arabian Sea and Red Sea fleet.</p>
+      <p className="page-sub">Live fleet KPIs across cruise liners and cargo vessels on the Arabian Sea and Red Sea.</p>
       <div className="grid-4">
         {[
           { label: "Today's bookings", value: kpis.todaysBookings },

@@ -5,7 +5,7 @@ export default function Profile() {
   return (
     <>
       <h1 className="page-title">Profile</h1>
-      <p className="page-sub">Signed-in identity for this CruiseOS session.</p>
+      <p className="page-sub">Signed-in identity for this Navora session.</p>
       <div className="panel">
         <ul className="list">
           <li>Name · {user.displayName}</li>

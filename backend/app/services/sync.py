@@ -1,4 +1,4 @@
-"""Edge offline sync queue — enqueue when offline, flush when reconnecting."""
+"""Edge offline sync queue  -  enqueue when offline, flush when reconnecting."""
 
 from __future__ import annotations
 

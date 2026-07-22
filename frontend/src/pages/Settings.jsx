@@ -7,7 +7,7 @@ export default function Settings() {
         <div className="panel">
           <h3>Experience</h3>
           <ul className="list">
-            <li>Theme · CruiseOS Navy / Gold</li>
+            <li>Theme · Navora Navy / Gold</li>
             <li>Language · English (Arabic UI planned)</li>
             <li>Edge cache · Static ship assets bundled locally</li>
             <li>Dynamic sync · Queue until satellite bandwidth allows</li>

@@ -1,4 +1,4 @@
-"""ZATCA Phase 2 simulation — TLV QR + UBL-like XML (not live Fatoora)."""
+"""ZATCA Phase 2 simulation  -  TLV QR + UBL-like XML (not live Fatoora)."""
 
 from __future__ import annotations
 

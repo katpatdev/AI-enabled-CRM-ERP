@@ -1,6 +1,6 @@
-# CruiseOS | AI Enterprise Operating System for Cruise Tourism
+# Navora | AI OS for Cruise and Cargo Fleets
 
-Pitchable **MVP+** prototype for Middle Eastern cruise operations (Arabian Sea to Red Sea). Hardcoded role-based login, guest passenger portal, and employee ERP/CRM surfaces with enterprise-looking dashboards backed by mock data and optional FastAPI APIs.
+Pitchable **MVP+** prototype for Middle Eastern maritime operations (Arabian Sea to Red Sea), covering cruise liners and cargo ships. Hardcoded role-based login, guest passenger portal, and employee ERP/CRM surfaces with enterprise-looking dashboards backed by mock data and optional FastAPI APIs.
 
 **Tech docs:** [docs/DESIGN.md](docs/DESIGN.md) · [docs/TECHNICAL_ARCHITECTURE.md](docs/TECHNICAL_ARCHITECTURE.md) · [docs/CRUISEOS_MVP_PLUS.md](docs/CRUISEOS_MVP_PLUS.md)
 

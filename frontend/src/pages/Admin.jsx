@@ -2,7 +2,7 @@ export default function Admin() {
   return (
     <>
       <h1 className="page-title">Admin panel</h1>
-      <p className="page-sub">Enterprise administration surface for the CruiseOS pitch.</p>
+      <p className="page-sub">Enterprise administration surface for the Navora pitch.</p>
       <div className="grid-3">
         {[
           ['Users', '42 active accounts'],

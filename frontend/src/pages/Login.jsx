@@ -34,9 +34,9 @@ export default function Login() {
             Maritime AI Platform
           </p>
           <h1>
-            Cruise<span>OS</span>
+            Navor<span>a</span>
           </h1>
-          <p>AI Enterprise Operating System for Cruise Tourism across the Arabian Sea and Red Sea.</p>
+          <p>AI enterprise OS for cruise liners and cargo fleets across the Arabian Sea and Red Sea.</p>
         </div>
         <div className="login-form-wrap">
           <h2 className="page-title" style={{ fontSize: '1.35rem' }}>Sign in</h2>
@@ -49,7 +49,7 @@ export default function Login() {
             </button>
             <button type="button" className="role-card" onClick={() => quick('employee')}>
               <strong>Continue as Employee</strong>
-              <span>Shipboard operations · CRM · ERP · finance</span>
+              <span>Cruise and cargo ops · CRM · ERP · finance</span>
             </button>
           </div>
 
@@ -65,7 +65,7 @@ export default function Login() {
               <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="abcd" autoComplete="current-password" />
             </div>
             <button className="btn btn-primary" type="submit" style={{ width: '100%' }}>
-              Enter CruiseOS
+              Enter Navora
             </button>
           </form>
           <p className="muted" style={{ marginTop: '1rem', fontSize: '0.8rem' }}>

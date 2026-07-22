@@ -1,7 +1,7 @@
-# CruiseOS MVP+ Design Notes
+# Navora MVP+ Design Notes
 
-**Product name:** CruiseOS  
-**Tagline:** AI Enterprise Operating System for Cruise Tourism
+**Product name:** Navora  
+**Tagline:** AI Enterprise Operating System for Cruise and Cargo Fleets
 
 ## Positioning
 
@@ -20,7 +20,7 @@ Login also offers **Continue as Guest** and **Continue as Employee** cards.
 
 - Smart embarkation / digital boarding pass (QR, arrival window, congestion bar)
 - Cruise cards + booking wizard
-- CruiseOS Copilot / AI assistant
+- Navora Copilot / AI assistant
 - Faith cabin Qibla + prayer times (mock Red Sea GPS)
 - Knowledge base search
 - Notifications and profile

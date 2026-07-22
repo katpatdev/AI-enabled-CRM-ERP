@@ -1,4 +1,4 @@
-/** CruiseOS mock enterprise dataset for MVP+ demos */
+/** Navora mock enterprise dataset for MVP+ demos */
 
 export const insights = [
   {
@@ -24,6 +24,12 @@ export const insights = [
     title: 'Halal cold-store B watch',
     body: 'Cold Store B humidity near upper band. Pre-dispatch HVAC tech before Aqaba call.',
     impact: 'Avoid spoilage risk on 28kg hammour',
+  },
+  {
+    id: 5,
+    title: 'Cargo vessel Gulf Freighter ETA risk',
+    body: 'Container ship Gulf Freighter faces Red Sea weather window. Recommend speed adjust and Jeddah berth hold.',
+    impact: 'Protect on-time arrival and cold-chain cargo',
   },
 ]
 
@@ -237,7 +243,7 @@ export const copilotReplies = {
   summarize: 'Customer Layla Al-Harbi: high-value Diamond, Halal preference, 6 cruises, CLV SAR 126k, churn risk Low.',
   revenue: 'Predicted 7-day revenue: SAR 3.1M (+12%). Best destination signal: Jeddah/Al-Balad packages.',
   delayed: 'Delayed: Gulf Heritage Crossing (+3h). Notify 96 waitlisted cabin guests and rebook excursions.',
-  default: 'CruiseOS Copilot online. Try: show bookings, VIP customers, occupancy, invoice, marketing, forecast, delayed cruises.',
+  default: 'Navora Copilot online. Try: show bookings, VIP customers, occupancy, invoice, marketing, forecast, delayed cruises, or cargo ETA.',
 }
 
 export function matchCopilot(message) {
